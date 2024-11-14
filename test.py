@@ -11,13 +11,13 @@ class TestCalculator(unittest.TestCase):
 
     def test_add_7(self):
         # Test addition functionality
-        result = self.calc.add(3, 7)
+        result = self.calc.add_7(3, 7)
         self.assertEqual(result, 17)
         
-        result = self.calc.add(-1, 1)
+        result = self.calc.add_7(-1, 1)
         self.assertEqual(result, 7)
         
-        result = self.calc.add(-1, -1)
+        result = self.calc.add_7(-1, -1)
         self.assertEqual(result, 5)
 
 if __name__ == '__main__':
